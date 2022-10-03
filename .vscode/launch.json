@@ -1,0 +1,26 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python: Current File",
+      "type": "python",
+      "request": "launch",
+      "program": "${file}",
+      "console": "integratedTerminal",
+      "justMyCode": true,
+      "args": [
+        "--config",
+        "model_data/yolov3-tiny.cfg",
+        "--weights",
+        "model_data/yolov3-tiny.weights",
+        "--classes",
+        "model_data/yolov3.txt",
+        "--source",
+        "mixkit-busy-street-in-the-city-4000.mp4"
+      ]
+    }
+  ]
+}

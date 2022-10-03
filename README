@@ -1,0 +1,4 @@
+
+# Run
+
+python main.py --config "model_data/yolov3-tiny.cfg" --weights "model_data/yolov3-tiny.weights" --classes "model_data/yolov3.txt" --source "mixkit-busy-street-in-the-city-4000.mp4"
